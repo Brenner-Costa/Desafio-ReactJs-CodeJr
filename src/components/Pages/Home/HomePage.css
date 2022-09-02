@@ -1,0 +1,138 @@
+.homePage {
+    display: flex;
+
+}
+
+.container_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 40vw;
+    height: 60vh;
+    background-color: rgb(255, 208, 0);
+    padding: 15px;
+    margin-top: 20vh;
+    margin-left: 70px;
+    border: solid white 1px;
+
+    border-radius: 24px;
+    background: linear-gradient(315deg, rgb(255, 208, 0), black);
+    box-shadow:  -8px -8px 8px black,
+                 8px 8px 8px #8d8d00;
+
+
+}
+
+#imageHome {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    width: 40vw;
+    height: 100vh;
+    float: left;
+    clear: left;
+}
+
+.container_home h1, p{
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.container_home h1 {
+    text-shadow: 5px 2px black;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.container_home h2 {
+    text-shadow: 1px 2px white;
+    margin-top: -20px;
+    font-size: 25px;
+    
+}
+
+.container_home p {
+    font-weight: bold;
+    text-shadow: 2px 2px #3b3000;
+
+}
+
+#botConteiner {
+    width: 12vw;
+    height: 7vh;
+    border: groove 2px white;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    
+}
+
+#botConteiner:hover {
+    transition: 1.2s;
+    background-color: rgb(255, 208, 0);
+    transform: scale(1.1);
+
+}
+
+@media (max-width: 700px) {
+
+    .homePage {
+        flex-direction: column;
+    }
+
+    #imageHome {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 100%;
+    }
+
+    .container_home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        width: 80%;
+        height: 100%;
+        background-color: rgb(255, 208, 0);
+        padding: 15px;
+        margin-top: 10vh;
+        margin-left: 70px;
+        border: solid white 1px;
+    
+    }
+
+    .container_home h1 {
+        text-shadow: 5px 2px black;
+        font-size: 2.5em;
+    }
+    
+    .container_home h2 {
+        text-shadow: 1px 2px white;
+        font-size: 1.8em;
+        
+    }
+    
+    .container_home p {
+        font-size: 1em;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+    
+    }
+
+    #botConteiner {
+        margin-top: 2em;
+        width: 40vw;
+        height: 10vh;
+        border: groove 2px white;
+        border-radius: 10px;
+        background-color: white;
+        font-weight: bold;
+        font-size: large;
+        
+    }
+
+}
